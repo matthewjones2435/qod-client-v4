@@ -11,6 +11,8 @@ android {
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         buildConfigField "String", "BASE_URL", '"http://10.0.2.2:28282/rest/qod/"'
+        buildConfigField "String", "CLIENT_ID", '"140765003481-cssmjcfo1g170cq3uitetdbl9reuia3a.apps.googleusercontent.com"'
+        buildConfigField "String", "AUTHORIZATION_FORMAT", '"Bearer %s"'
     }
     buildTypes {
         release {
